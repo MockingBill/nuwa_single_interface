@@ -1,0 +1,31 @@
+[2022-10-08 11:12:29,926] [views.py:57] [views:handle_uploaded_file] [INFO]- /Users/dengqian/PycharmProjects/nuwa/static/upload - upload success
+[2022-10-08 11:12:47,760] [systen_unit.py:69] [systen_unit:is_good_file] [ERROR]- [f0274b6c820f18e0d97591ffa8c5e3fb]:判断CSV异常:'utf-8' codec can't decode byte 0xa7 in position 14: invalid start byte
+[2022-10-08 11:12:47,762] [views.py:247] [views:do_algorithm] [ERROR]- [f0274b6c820f18e0d97591ffa8c5e3fb]:没有告警文件下载url，或者告警文件url不合法，下载地址为http://127.0.0.1:12888/static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv
+[2022-10-08 11:21:46,194] [systen_unit.py:55] [systen_unit:is_good_file] [ERROR]- [983640f5b094debd8f6a9b398cc404a4校验文件异常'utf-8' codec can't decode byte 0xa7 in position 14: invalid start byte
+[2022-10-08 11:21:46,197] [views.py:247] [views:do_algorithm] [ERROR]- [983640f5b094debd8f6a9b398cc404a4]:没有告警文件下载url，或者告警文件url不合法，下载地址为http://127.0.0.1:12888/static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv
+[2022-10-08 11:22:45,260] [views.py:232] [views:do_algorithm] [INFO]- [bcf80cbaf11bf3fd551f2c139d115e71]:请求成功，任务开始启动
+[2022-10-08 11:22:45,260] [views.py:265] [views:do_algorithm] [ERROR]- [bcf80cbaf11bf3fd551f2c139d115e71]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:23:15,550] [views.py:232] [views:do_algorithm] [INFO]- [75a7449460c7af9088a5290b162371f1]:请求成功，任务开始启动
+[2022-10-08 11:23:15,555] [views.py:265] [views:do_algorithm] [ERROR]- [75a7449460c7af9088a5290b162371f1]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:24:26,156] [views.py:232] [views:do_algorithm] [INFO]- [ef01f400410bdd2282a1f1adbb9c6a1e]:请求成功，任务开始启动
+[2022-10-08 11:24:26,157] [views.py:265] [views:do_algorithm] [ERROR]- [ef01f400410bdd2282a1f1adbb9c6a1e]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:24:26,158] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/ef01f400410bdd2282a1f1adbb9c6a1e.csv
+[2022-10-08 11:26:21,484] [views.py:232] [views:do_algorithm] [INFO]- [140d58e0b3367c68bb5c43606601e64a]:请求成功，任务开始启动
+[2022-10-08 11:26:21,485] [views.py:265] [views:do_algorithm] [ERROR]- [140d58e0b3367c68bb5c43606601e64a]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:26:21,486] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/140d58e0b3367c68bb5c43606601e64a.csv
+[2022-10-08 11:28:26,528] [views.py:232] [views:do_algorithm] [INFO]- [04070d71ef0f1af37220b641f555c5aa]:请求成功，任务开始启动
+[2022-10-08 11:28:26,537] [views.py:265] [views:do_algorithm] [ERROR]- [04070d71ef0f1af37220b641f555c5aa]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:28:59,278] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/04070d71ef0f1af37220b641f555c5aa.csv
+[2022-10-08 11:30:31,142] [core_algorithm.py:11] [core_algorithm:__init__] [INFO]- start_core_algorithm:core_para
+[2022-10-08 11:30:31,360] [views.py:231] [views:do_algorithm] [INFO]- [0f856192832f1fc02433f76e6b789b04]:请求成功，任务开始启动
+[2022-10-08 11:30:31,361] [views.py:264] [views:do_algorithm] [ERROR]- [0f856192832f1fc02433f76e6b789b04]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 239
+[2022-10-08 11:30:31,362] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/0f856192832f1fc02433f76e6b789b04.csv
+[2022-10-08 11:32:52,001] [views.py:31] [views:wrapper] [INFO]- token:['ebc74c68-c620-4457-841b-da52ee2fa78a']
+[2022-10-08 11:32:52,003] [core_algorithm.py:11] [core_algorithm:__init__] [INFO]- start_core_algorithm:core_para
+[2022-10-08 11:32:52,245] [views.py:237] [views:do_algorithm] [INFO]- [74924d6e880a11bb75bb481f99af8737]:请求成功，任务开始启动
+[2022-10-08 11:32:52,246] [views.py:270] [views:do_algorithm] [ERROR]- [74924d6e880a11bb75bb481f99af8737]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 245
+[2022-10-08 11:32:52,247] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/74924d6e880a11bb75bb481f99af8737.csv
+[2022-10-08 11:36:46,282] [views.py:31] [views:wrapper] [INFO]- token:['ebc74c68-c620-4457-841b-da52ee2fa78a']
+[2022-10-08 11:36:46,292] [core_algorithm.py:11] [core_algorithm:__init__] [INFO]- start_core_algorithm:core_para
+[2022-10-08 11:36:46,602] [views.py:237] [views:do_algorithm] [INFO]- [0908f3248d80f2d65500845a5b1ce21e]:请求成功，任务开始启动
+[2022-10-08 11:36:46,605] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/0908f3248d80f2d65500845a5b1ce21e.csv

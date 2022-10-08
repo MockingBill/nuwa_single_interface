@@ -1,0 +1,169 @@
+[2022-10-08 11:10:38,224] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:11:23,580] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 55
+[2022-10-08 11:11:23,755] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-10-08 11:11:23,756] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2412
+[2022-10-08 11:12:25,409] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST / HTTP/1.1" 200 48
+[2022-10-08 11:12:29,926] [views.py:57] [views:handle_uploaded_file] [INFO]- /Users/dengqian/PycharmProjects/nuwa/static/upload - upload success
+[2022-10-08 11:12:29,981] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /file_upload HTTP/1.1" 200 133
+[2022-10-08 11:12:38,961] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /file_download HTTP/1.1" 200 33397
+[2022-10-08 11:12:42,788] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /get_process HTTP/1.1" 200 85
+[2022-10-08 11:12:47,687] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:12:47,760] [systen_unit.py:69] [systen_unit:is_good_file] [ERROR]- [f0274b6c820f18e0d97591ffa8c5e3fb]:判断CSV异常:'utf-8' codec can't decode byte 0xa7 in position 14: invalid start byte
+[2022-10-08 11:12:47,762] [views.py:247] [views:do_algorithm] [ERROR]- [f0274b6c820f18e0d97591ffa8c5e3fb]:没有告警文件下载url，或者告警文件url不合法，下载地址为http://127.0.0.1:12888/static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv
+[2022-10-08 11:12:47,763] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 81
+[2022-10-08 11:17:34,188] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:17:35,949] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:17:42,519] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:17:43,546] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:17:57,769] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:17:58,954] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:18:07,011] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:18:07,816] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:18:17,691] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:18:18,769] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:18:22,047] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:18:22,867] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:18:25,656] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:18:26,436] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:18:41,374] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:18:42,414] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:20:34,419] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:20:35,480] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:21:09,024] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:21:09,995] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:21:20,099] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:21:21,097] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:21:25,249] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:21:26,632] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:21:32,591] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:21:33,222] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:21:42,065] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:21:46,164] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:21:46,194] [systen_unit.py:55] [systen_unit:is_good_file] [ERROR]- [983640f5b094debd8f6a9b398cc404a4校验文件异常'utf-8' codec can't decode byte 0xa7 in position 14: invalid start byte
+[2022-10-08 11:21:46,197] [views.py:247] [views:do_algorithm] [ERROR]- [983640f5b094debd8f6a9b398cc404a4]:没有告警文件下载url，或者告警文件url不合法，下载地址为http://127.0.0.1:12888/static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv
+[2022-10-08 11:21:46,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 81
+[2022-10-08 11:22:31,823] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:22:41,826] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:22:45,231] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:22:45,260] [views.py:232] [views:do_algorithm] [INFO]- [bcf80cbaf11bf3fd551f2c139d115e71]:请求成功，任务开始启动
+[2022-10-08 11:22:45,260] [views.py:265] [views:do_algorithm] [ERROR]- [bcf80cbaf11bf3fd551f2c139d115e71]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:22:45,261] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 66
+[2022-10-08 11:23:02,172] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/core_algorithm.py changed, reloading.
+[2022-10-08 11:23:03,190] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:23:11,885] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:23:15,514] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:23:15,550] [views.py:232] [views:do_algorithm] [INFO]- [75a7449460c7af9088a5290b162371f1]:请求成功，任务开始启动
+[2022-10-08 11:23:15,555] [views.py:265] [views:do_algorithm] [ERROR]- [75a7449460c7af9088a5290b162371f1]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:23:15,558] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 66
+[2022-10-08 11:23:53,450] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/core_algorithm.py changed, reloading.
+[2022-10-08 11:23:54,301] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:24:02,264] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/core_algorithm.py changed, reloading.
+[2022-10-08 11:24:03,106] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:24:05,039] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/core_algorithm.py changed, reloading.
+[2022-10-08 11:24:05,867] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:24:13,854] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/core_algorithm.py changed, reloading.
+[2022-10-08 11:24:14,696] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:24:16,392] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/core_algorithm.py changed, reloading.
+[2022-10-08 11:24:17,087] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:24:22,636] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:24:26,128] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:24:26,156] [views.py:232] [views:do_algorithm] [INFO]- [ef01f400410bdd2282a1f1adbb9c6a1e]:请求成功，任务开始启动
+[2022-10-08 11:24:26,157] [views.py:265] [views:do_algorithm] [ERROR]- [ef01f400410bdd2282a1f1adbb9c6a1e]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:24:26,158] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 66
+[2022-10-08 11:24:26,158] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/ef01f400410bdd2282a1f1adbb9c6a1e.csv
+[2022-10-08 11:25:24,613] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/core_algorithm.py changed, reloading.
+[2022-10-08 11:25:25,898] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:26:17,734] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:26:21,456] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:26:21,484] [views.py:232] [views:do_algorithm] [INFO]- [140d58e0b3367c68bb5c43606601e64a]:请求成功，任务开始启动
+[2022-10-08 11:26:21,485] [views.py:265] [views:do_algorithm] [ERROR]- [140d58e0b3367c68bb5c43606601e64a]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:26:21,487] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 66
+[2022-10-08 11:26:21,486] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/140d58e0b3367c68bb5c43606601e64a.csv
+[2022-10-08 11:27:53,570] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/core_algorithm.py changed, reloading.
+[2022-10-08 11:27:54,737] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:28:24,309] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:28:26,452] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:28:26,528] [views.py:232] [views:do_algorithm] [INFO]- [04070d71ef0f1af37220b641f555c5aa]:请求成功，任务开始启动
+[2022-10-08 11:28:26,537] [views.py:265] [views:do_algorithm] [ERROR]- [04070d71ef0f1af37220b641f555c5aa]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 240
+[2022-10-08 11:28:26,546] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 66
+[2022-10-08 11:28:59,278] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/04070d71ef0f1af37220b641f555c5aa.csv
+[2022-10-08 11:30:27,976] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:30:31,142] [core_algorithm.py:11] [core_algorithm:__init__] [INFO]- start_core_algorithm:core_para
+[2022-10-08 11:30:31,336] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:30:31,360] [views.py:231] [views:do_algorithm] [INFO]- [0f856192832f1fc02433f76e6b789b04]:请求成功，任务开始启动
+[2022-10-08 11:30:31,361] [views.py:264] [views:do_algorithm] [ERROR]- [0f856192832f1fc02433f76e6b789b04]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 239
+[2022-10-08 11:30:31,362] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/0f856192832f1fc02433f76e6b789b04.csv
+[2022-10-08 11:30:31,363] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 66
+[2022-10-08 11:31:02,532] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/views.py changed, reloading.
+[2022-10-08 11:31:03,928] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:31:13,002] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/views.py changed, reloading.
+[2022-10-08 11:31:14,157] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:31:18,586] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /do_algorithm
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/nuwa/nuwa/views.py", line 30, in wrapper
+    logger.info("token:"+token_arr)
+TypeError: must be str, not list
+[2022-10-08 11:31:18,587] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /do_algorithm HTTP/1.1" 500 66251
+[2022-10-08 11:31:39,889] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:31:43,460] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /do_algorithm
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/dengqian/PycharmProjects/nuwa/nuwa/views.py", line 30, in wrapper
+    logger.info("token:"+token_arr)
+TypeError: must be str, not list
+[2022-10-08 11:31:43,461] [basehttp.py:157] [basehttp:log_message] [ERROR]- "POST /do_algorithm HTTP/1.1" 500 66251
+[2022-10-08 11:31:53,291] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/views.py changed, reloading.
+[2022-10-08 11:31:54,497] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:32:49,012] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:32:52,001] [views.py:31] [views:wrapper] [INFO]- token:['ebc74c68-c620-4457-841b-da52ee2fa78a']
+[2022-10-08 11:32:52,003] [core_algorithm.py:11] [core_algorithm:__init__] [INFO]- start_core_algorithm:core_para
+[2022-10-08 11:32:52,212] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:32:52,245] [views.py:237] [views:do_algorithm] [INFO]- [74924d6e880a11bb75bb481f99af8737]:请求成功，任务开始启动
+[2022-10-08 11:32:52,246] [views.py:270] [views:do_algorithm] [ERROR]- [74924d6e880a11bb75bb481f99af8737]:unsupported operand type(s) for /: 'NoneType' and 'int' line_no 245
+[2022-10-08 11:32:52,247] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 66
+[2022-10-08 11:32:52,247] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/74924d6e880a11bb75bb481f99af8737.csv
+[2022-10-08 11:34:37,100] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/systen_unit.py changed, reloading.
+[2022-10-08 11:34:38,969] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:35:25,720] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:36:46,282] [views.py:31] [views:wrapper] [INFO]- token:['ebc74c68-c620-4457-841b-da52ee2fa78a']
+[2022-10-08 11:36:46,292] [core_algorithm.py:11] [core_algorithm:__init__] [INFO]- start_core_algorithm:core_para
+[2022-10-08 11:36:46,576] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv HTTP/1.1" 200 10475100
+[2022-10-08 11:36:46,602] [views.py:237] [views:do_algorithm] [INFO]- [0908f3248d80f2d65500845a5b1ce21e]:请求成功，任务开始启动
+[2022-10-08 11:36:46,604] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /do_algorithm HTTP/1.1" 200 226
+[2022-10-08 11:36:46,605] [core_algorithm.py:20] [core_algorithm:file_deal] [INFO]- local_path/Users/dengqian/PycharmProjects/nuwa/uploads/0908f3248d80f2d65500845a5b1ce21e.csv
+[2022-10-08 11:37:03,896] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/download/0908f3248d80f2d65500845a5b1ce21e.csv HTTP/1.1" 404 1762
+[2022-10-08 11:37:04,417] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-10-08 11:37:04,417] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2412
+[2022-10-08 11:37:46,512] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/settings.py changed, reloading.
+[2022-10-08 11:37:47,953] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:37:50,126] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- /Users/dengqian/PycharmProjects/nuwa/nuwa/settings.py changed, reloading.
+[2022-10-08 11:37:51,144] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:37:53,411] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:37:56,009] [log.py:230] [log:log_response] [WARNING]- Not Found: /static/download/0908f3248d80f2d65500845a5b1ce21e.csv
+[2022-10-08 11:37:56,010] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /static/download/0908f3248d80f2d65500845a5b1ce21e.csv HTTP/1.1" 404 179
+[2022-10-08 11:39:05,462] [log.py:230] [log:log_response] [WARNING]- Not Found: /sas
+[2022-10-08 11:39:05,463] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sas HTTP/1.1" 404 179
+[2022-10-08 11:39:43,492] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:39:49,895] [log.py:230] [log:log_response] [WARNING]- Not Found: /sas
+[2022-10-08 11:39:49,896] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sas HTTP/1.1" 404 179
+[2022-10-08 11:43:50,723] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:48:52,678] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:48:55,596] [log.py:230] [log:log_response] [WARNING]- Not Found: /sas
+[2022-10-08 11:48:55,597] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /sas HTTP/1.1" 404 124
+[2022-10-08 11:49:03,000] [log.py:230] [log:log_response] [WARNING]- Not Found: /500
+[2022-10-08 11:49:03,001] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /500 HTTP/1.1" 404 124
+[2022-10-08 11:49:07,447] [log.py:230] [log:log_response] [WARNING]- Not Found: /ASASD
+[2022-10-08 11:49:07,447] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /ASASD HTTP/1.1" 404 124
+[2022-10-08 11:49:57,706] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:50:00,467] [log.py:230] [log:log_response] [WARNING]- Not Found: /ASASD
+[2022-10-08 11:50:00,468] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /ASASD HTTP/1.1" 404 15
+[2022-10-08 11:50:35,783] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-10-08 11:50:38,295] [log.py:230] [log:log_response] [WARNING]- Not Found: /ASASD
+[2022-10-08 11:50:38,296] [basehttp.py:157] [basehttp:log_message] [WARNING]- "POST /ASASD HTTP/1.1" 404 65

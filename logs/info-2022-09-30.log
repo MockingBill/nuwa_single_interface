@@ -1,0 +1,5 @@
+[2022-09-30 15:33:19,619] [views.py:50] [views:handle_uploaded_file] [INFO]- /Users/dengqian/PycharmProjects/nuwa/static/upload - upload success
+[2022-09-30 16:48:15,013] [views.py:265] [views:do_algorithm] [ERROR]- [d9dc4591860f94430565cbc9bc1a6a9a]:__init__() missing 1 required positional argument: 'core_prarm' line_no 225
+[2022-09-30 16:48:56,905] [systen_unit.py:36] [systen_unit:download_file] [ERROR]- [4a255cde31970cc343f4d95e71e0e00e] HTTPConnectionPool(host='127.0.0.1', port=12013): Max retries exceeded with url: /static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbac417f668>: Failed to establish a new connection: [Errno 61] Connection refused',))
+[2022-09-30 16:48:56,905] [views.py:247] [views:do_algorithm] [ERROR]- [4a255cde31970cc343f4d95e71e0e00e]:没有告警文件下载url，或者告警文件url不合法，下载地址为http://127.0.0.1:12013/static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv
+[2022-09-30 16:49:25,931] [views.py:247] [views:do_algorithm] [ERROR]- [0e4208dfa8840499870db6f3df217c52]:没有告警文件下载url，或者告警文件url不合法，下载地址为http://127.0.0.1:12888/static/upload/ae25a947-0332-4745-ac54-cd17f6f6bd50.csv
